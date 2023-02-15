@@ -1,0 +1,207 @@
+/*herramientas*/
+.centrado{
+    text-align: center;
+}
+
+/*fonts*/
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    font-family: arial,sans-serif;
+    color:#202124;
+    font-size: 14px;
+    *box-sizing: border-box;
+}
+
+/*header*/
+header{
+    height: 80px;
+    *box-sizing: border-box;
+}
+
+nav ul{
+    float: right;
+    margin-right: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    color:#202124;
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+/*menu desplegable de Drive*/
+.menuChoco{
+    width: 320px;
+    height: 300px;
+    font-size: 13px;
+   
+}
+.menu{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;  
+    *border:rgb(133, 133, 133) 1px solid;
+    border-radius: 12px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.20); 
+    
+}
+.menu a {
+    text-decoration: none;
+    color: #202124;
+}
+
+/*body - section*/
+
+.lasection{
+    height: 80vh;
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.btnInicio{
+    display: flex;
+    justify-content: center;
+}
+section a{
+    text-decoration: none;
+}
+
+section a p {
+    margin: 20px;
+    color:#3c4043;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+section p:hover {
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+
+#buscador{    
+    border: solid 1px rgb(210, 210, 210);
+    border-radius: 40px;
+    padding: 15px;
+    width: 600px;
+}
+#buscador:hover{
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.10);
+}
+
+.labelBuscador{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.labelD{
+    display: flex;
+
+}
+.labelI{
+    display: flex;
+}
+
+.labelBuscador input{
+   border: solid 1px rgb(250, 250, 250);
+}
+#labelGoogle{
+    width: 250%;
+    outline: none;
+    margin-left: 10px;
+    font-size: 16px;
+}   
+
+
+
+/*footer*/
+footer{
+    height: 100px;
+    padding: 10px;
+    margin: 0px;
+    color: #70757a;
+    background-color: #f2f2f2;
+}
+footer p{
+    margin-left: 25px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+footer ul li{
+    display: inline;
+    padding: 10px;
+}
+footer ul a{
+    text-decoration: none;
+    color: #70757A;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+.footHR{
+    border-bottom: 1px solid #dadce0;
+}
+
+
+/*imagenes*/
+.chocoNav{
+    width: 20px;
+    height: 20px;
+}
+.chocoNav:hover{
+    border-radius: 50%;
+    background-color: #70757A;
+    
+}
+
+.fNav{
+    border-radius: 20px;
+}
+
+
+.imgG{
+    width: 242px;
+    height: 130px;
+}
+.lupita{
+    width: 20px;
+    height: 20px;
+}
+.mic{
+    width: 25px;
+    height: 25px;
+}
+.gLens{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+}
+.menuImg{
+    width: 40px;
+    height: 40px;
+    padding: 16px;
+
+}
+.menuImgF{
+    width: 40px;
+    height: 40px;
+    padding: 16px;
+    border-radius: 50px;
+}
