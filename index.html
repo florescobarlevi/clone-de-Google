@@ -10,79 +10,94 @@
     <title>Google</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <a href=""><li>Gmail</li></a>
-                <a href=""><li>Imágenes</li></a>
-                <a href=""><li> <img class="chocoNav" src="/images/buscar-nav.png" alt=""></li></a>
-                <a href=""><li> <img class="fNav" src="/images/F-nav.png" alt=""></li></a>
-                <div class="menuChoco">
-                    <ul class="menu centrado">
-                        <li><a href=""><img class="menuImgF" src="/images/F-nav.png" alt=""></a></li>
-                        <li><a href=""><img class="menuImg" src="/images/buscar.png" alt=""> <br> Buscador</a></li>
-                        <li><a href=""><img class="menuImg" src="/images/google-maps.png" alt=""> <br> Maps</a></li>
-                        <li><a href=""><img class="menuImg" src="/images/youtube.png" alt=""> <br> YouTube</a></li>
-                        <li><a href=""><img class="menuImg" src="/images/google-play.png" alt=""> <br> Play</a></li>
-                        <li><a href=""><img class="menuImg" src="images/gmail.png" alt=""> <br> Gmail</a></li>
-                        <li><a href=""><img class="menuImg" src="/images/contactos.png.png" alt=""> <br> Contactos</a></li>
-                        <li><a href=""><img class="menuImg" src="/images/google-drive (1).png" alt=""> <br> Drive</a></li>
-                        <li><a href=""><img class="menuImg" src="/images/calendario.png.png" alt=""> <br> Calendario</a></li>
+    <div class="container">
+        
+        <header>
+            <nav>
+                <ul>
+                    <a href=""><li>Gmail</li></a>
+                    <a href=""><li>Imágenes</li></a>
+                    <a href="" id="logoMenu"><li> <img class="chocoNav" src="/images/buscar-nav.png" alt=""></li></a>
+                    <a href=""><li> <img class="fNav" src="/images/F-nav.png" alt=""></li></a>
+                    <div class="menuChoco" id="menuGoogle">
+                        <ul class="menu centrado">
+                            <li><a href=""><img class="menuImgF" src="/images/F-nav.png" alt=""></a></li>
+                            <li><a href=""><img class="menuImg" src="/images/buscar.png" alt=""> <br> Buscador</a></li>
+                            <li><a href=""><img class="menuImg" src="/images/google-maps.png" alt=""> <br> Maps</a></li>
+                            <li><a href=""><img class="menuImg" src="/images/youtube.png" alt=""> <br> YouTube</a></li>
+                            <li><a href=""><img class="menuImg" src="/images/google-play.png" alt=""> <br> Play</a></li>
+                            <li><a href=""><img class="menuImg" src="images/gmail.png" alt=""> <br> Gmail</a></li>
+                            <li><a href=""><img class="menuImg" src="/images/contactos.png.png" alt=""> <br> Contactos</a></li>
+                            <li><a href=""><img class="menuImg" src="/images/google-drive (1).png" alt=""> <br> Drive</a></li>
+                            <li><a href=""><img class="menuImg" src="/images/calendario.png.png" alt=""> <br> Calendario</a></li>
 
-                    </ul>
-                </div>
-            </ul>
-        </nav>
-    </header>
-    
-        <section class="lasection">
-            <div class="inicio">
-                <div>
-                    <a href=""><img class="imgG" src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Google.png" alt=""></a>
-                </div>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        
+            <section class="lasection">
+                <div class="inicio">
+                    <div>
+                        <a href=""><img class="imgG" src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Google.png" alt=""></a>
+                    </div>
+                    
+                    <div>
+                        <ul id="buscador">
+                            <li class="labelBuscador">
+                                <div class="labelI">
+                                    <img class="lupita" src="/images/buscando-lupa.png" alt="">  
+                                    <label><input type="text" id="labelGoogle" name="Name" /></label>
+
+                                </div>
+                                <div class="labelD">
+                                    <img class="mic" src="/images/voz-de-google.png" alt="">
+                                    <img class="gLens" src="/images/google-lens.svg" alt="">  
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btnInicio">
+                        <a href=""><p>Buscar con Google</p></a>
+                        <a href=""><p>Voy a tener suerte</p></a>
+                    </div>
+                </div>  
+            </section>
+        
+        <footer>
+            <div class="footHR">
+                <p>Argentina</p>
+            </div>
+        
+            <div class="foot">
+                <ul>                    
+                    <a href=""><li>Sobre Google</li></a>
+                    <a href=""><li>Publicidad</li></a>
+                    <a href=""><li>Negocios</li></a>
+                    <a href=""><li>Cómo funciona la Búsqueda</li></a>
+                </ul>
+                <ul>
+                    <a href=""><li>Privacidad</li></a>
+                    <a href=""><li>Condiciones</li></a>
+                    <a href=""><li>Preferencias</li></a>
+                                    
+                </ul>  
+            </div>
                 
-                <div>
-                    <ul id="buscador">
-                        <li class="labelBuscador">
-                            <div class="labelI">
-                                <img class="lupita" src="/images/buscando-lupa.png" alt="">  
-                                <label><input type="text" id="labelGoogle" name="Name" /></label>
+        </footer> 
+    </div>
 
-                            </div>
-                            <div class="labelD">
-                                <img class="mic" src="/images/voz-de-google.png" alt="">
-                                <img class="gLens" src="/images/google-lens.svg" alt="">  
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="btnInicio">
-                    <a href=""><p>Buscar con Google</p></a>
-                    <a href=""><p>Voy a tener suerte</p></a>
-                </div>
-            </div>  
-        </section>
-    
-    <footer>
-        <div class="footHR">
-            <p>Argentina</p>
-        </div>
-    
-        <div class="foot">
-            <ul>                    
-                <a href=""><li>Sobre Google</li></a>
-                <a href=""><li>Publicidad</li></a>
-                <a href=""><li>Negocios</li></a>
-                <a href=""><li>Cómo funciona la Búsqueda</li></a>
-            </ul>
-            <ul>
-                <a href=""><li>Privacidad</li></a>
-                <a href=""><li>Condiciones</li></a>
-                <a href=""><li>Preferencias</li></a>
-                                
-            </ul>  
-        </div>
-             
-    </footer>
+
+    <script>
+        
+        let logoMenu = document.getElementById('logoMenu')
+
+        logoMenu.addEventListener('click', function(){
+            let menu = document.getElementById('menuGoogle')
+            let 
+        })
+
+    </script>
 </body>
 </html>
